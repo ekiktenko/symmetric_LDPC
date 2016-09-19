@@ -25,7 +25,7 @@ Contains basic procedures for performing a test of reconciliation protocol. It i
 Pool of four [standard LDPC codes](http://ieeexplore.ieee.org/document/5307322/?arnumber=5307322) of block length 1944 together with positions for [untanited puncturing](http://ieeexplore.ieee.org/document/6290312/?arnumber=6290312). The set of code rates is {5/6, 3/4, 2/3, 1/2}.
 
 ### 2.4. codes_4000.txt
-Pool of nine LDPC codes with block length 4000, constructed with [improved progressive edge growing algorithm](http://ieeexplore.ieee.org/document/5606185/?arnumber=5606185) with [particular distribuition polynomials](http://ieeexplore.ieee.org/document/5205475/?arnumber=5205475). The set of code rates is {0.9, 0.85, ..., 0.5}.
+Pool of nine LDPC codes with block length 4000, constructed with [improved progressive edge growing algorithm](http://ieeexplore.ieee.org/document/5606185/?arnumber=5606185) with [particular distribuition polynomials](http://ieeexplore.ieee.org/document/5205475/?arnumber=5205475) togeteher with postions for [untanited puncturing](http://ieeexplore.ieee.org/document/6290312/?arnumber=6290312). The set of code rates is {0.9, 0.85, ..., 0.5}.
 
 ### 2.5. file_utils.py
 Contains some auxiliary procedures for reading files with codes.
